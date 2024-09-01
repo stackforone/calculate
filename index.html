@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatenumbers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>วินเลขจากหน้าไปหลัง</h1>
+            <h2></h2>
+        </div>
+        <div class="content">
+            <div class="form-container">
+                <label for="input-number">โปรแกรมวินเลขจากหน้าไปหลัง ป้อนเลขที่ต้องการวิน อย่างน้อย 3 ตัว</label>
+                <input type="text" id="input-number" placeholder="ป้อนเลขที่นี่..." onkeypress="checkEnter(event)">
+                <div>
+                    <input type="checkbox" id="exclude-checkbox">
+                    <label for="exclude-checkbox">ไม่รวมเบิ้ล</label>
+                </div>
+                <div class="buttons">
+                    <button onclick="winNumber()">วินเลข</button>
+                </div>
+            </div>
+            <div id="result" class="result-container"></div>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

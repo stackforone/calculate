@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+.content {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 20px;
+    color: #6A1B9A;
+    font-weight: 500;
+}
+
+.form-container {
+    background-color: #E0F7FA;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#input-number {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Kanit', sans-serif;
+}
+
+textarea#output {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Kanit', sans-serif;
+}
+
+.form-container div {
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+.result-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result-container h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.result-container .result-set {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #E0F7FA;
+    border-radius: 10px;
+}
+
+.result-set button {
+    margin-top: 10px;
+    background-color: #00695C;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+}
+
+.result-set button:hover {
+    background-color: #004D40;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer button {
+    background-color: #00695C;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.footer button:hover {
+    background-color: #004D40;
+}
